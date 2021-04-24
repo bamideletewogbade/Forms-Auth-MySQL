@@ -8,23 +8,23 @@
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body class="main">
-<h1>👋 Hello</h1>
+<h1>👋 Hello, Welcome to the Zuri Assignment Auth Page</h1>
 <br>
 <h2>Create an account.</h2>
 <br>
-    <form action="register_process" method="POST" autocomplete="off">
-        Username: <input type="text" name="username" placeholder="Enter username">
+    <form action="register_process" method="POST">
+        Username: <input type="text" name="username" placeholder="Enter username" required="" autocomplete="off">
         <br>
         <br>
-        Password: <input type="password" name="password" placeholder="Enter password">
+        Password: <input type="password" name="password" placeholder="Enter password" required="" autocomplete="off">
         <br>
         <br>
-        Confirm Password: <input type="password" name="c_password" placeholder="Confirm password">
+        Confirm Password: <input type="password" name="c_password" placeholder="Confirm password" required="" autocomplete="off">
         <br>
         <br>
-        <input type="submit" name="submit" value="Register">
+        <input class="btn btn-block btn-primary" type="submit" name="submit" value="Register">
         <br> 
-        <p>Already registered? <strong><a href="login.php">Login</a></strong></p>
+        <p>Already registered? <strong><a style="color: blue" href="login.php">Login</a></strong></p>
 
     </form>
 </body>
