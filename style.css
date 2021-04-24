@@ -1,6 +1,10 @@
 body {
   font-family: system-ui;
-  background: #f06d06;
+  background: black;
   color: white;
+  text-align: center;
+}
+
+form {
   text-align: center;
 }
